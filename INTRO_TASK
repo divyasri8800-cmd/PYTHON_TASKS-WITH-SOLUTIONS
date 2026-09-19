@@ -1,0 +1,99 @@
+#string
+name="Divyasri"
+print(name)
+
+
+#float
+a = 11.1
+print(a)
+
+#integer
+price=200
+print(price)
+
+#identifier naming rules.
+student= "Divya"
+age=22
+percentage=85.4
+print(type(student))
+print(type(age))
+print(type(percentage))
+
+#5. Convert integer to float 
+n=44
+m=float(n)
+print(m)
+
+#6. Convert float to string 
+n=44.4
+m=str(n)
+print(m)
+
+#7.convert string to integer 
+n="44"
+m=int(n)
+print(m)
+
+#8.convert float to integer 
+n=24.9
+m=int(n)
+print(m)
+
+#9.Try out the arithmetic operations . 
+a=87
+b=54
+print(a+b)
+print(a-b)
+print(a/b)
+print(a*b)
+print(a//b)
+
+#10 . Try out comparison operations 
+x=87
+y=54
+print(x==y)
+print(x!=y)
+print(x>y)
+print(x<y)
+print(x>=y)
+print(x<=y)
+
+#Logical operators
+a=20
+b=120
+print(a <100 and b >100)
+print(a >100 or b >100)
+print(not b >100)
+
+#12. Add two strings 
+x="Divya"
+y="sri"
+print(x+y)
+
+#13. Add two integers 
+m=55
+n=44
+print(m+n)
+
+#14.Add integer and string 
+a=11
+
+c=str(a)
+b="22"
+print("integer to string addition: ",c+b)
+
+a="60"
+b=70
+c=int(a)
+print("string to integer addition: ",c+b)
+
+#15. Multiply string and integer
+a="80"
+b=5
+c= str(a)
+print(c*b)
+
+a="Divya "
+b= 2
+c= str(a)
+print(c*b)
