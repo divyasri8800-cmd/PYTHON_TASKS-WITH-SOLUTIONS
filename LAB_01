@@ -1,0 +1,68 @@
+print("\"Hello World\"")
+
+
+print("\"Welcome to the world of Python\"")
+
+
+print("\"This is an 'IMPORTANT' News\"")
+
+
+print("\"Good Book's\"")
+
+
+n=55
+print(hex(n))
+print(bin(n))
+
+
+#operators
+m=20
+n=30
+print(m+n)
+print(m-n)
+print(m*n)
+print(m/n)
+print(m//n)
+print(m%n)
+print(m**n)
+
+
+print("Were" + "wolf")
+print("Door" + "man")
+print("4" + "chan")
+print(str(4) + "chan")
+print(4 * "test")
+
+x=3*4%5
+print(x)
+
+x=-3+4-7*8/5%10
+print(x)
+
+x=2
+y=3
+z=4
+test=(4*x+3)*(2*y+2*z-4)
+print(test)
+
+i=2
+j=4
+m=i*100+j*10
+print(m)
+
+mult=10
+sub=20
+good=40
+on=mult*sub/4-6/2+2/3*6/good
+print(on)
+
+m=30
+print(type(m))
+n=11.1
+print(type(n))
+r="divya"
+print(type(r))
+x= 2+4j
+print(type(x))
+a=True
+print(type(a))
