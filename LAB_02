@@ -1,0 +1,230 @@
+'''
+#1)Find the number is positive or negative
+m=-22
+if m>0:
+    print("The number is positive")
+else:
+    print("The number is negative")
+
+#2)Find the number is positive,negative or zero
+x=50000
+
+if x>0:
+    print("positive")
+elif x<0:
+    print("negative")
+elif x==0:
+    print("equal")
+else :
+    print("invalid")
+
+
+#3) Eligibility to vote
+age=22
+if age>18:
+    print("eligibile for vote")
+else:
+    print("not eligibile for vote")
+
+#4)Eligibility to donate blood  
+name= "Arun"
+age=25
+if age >18:
+    print("Arun is eligibile to donate blood")
+else:
+    print("not eligibile")
+
+#4)Odd number or Even  numbe
+a=int(input("Enter the number:"))
+
+if a %2==0:
+    print("even")
+else:
+    print("odd")
+
+#6) get the total marks and fing the average
+m1=85
+m2=90
+m3=80
+
+total=m1+m2+m3
+average= total/3
+print("total:", total)
+print("average:", average)
+
+
+#9)find out whether the number is single digit or not
+number =77
+if number<=9:
+    print("single digit")
+else:
+    print("not single digit")
+
+#10)find the largest of three numbers
+x=88
+y=87
+z=90
+if x>y and x>z:
+    print("A is greater")
+elif y>x and y>z:
+    print("B is graeter")
+elif z>x and z>y:
+    print("C is greater")
+else:
+    print("Invalid statement")
+
+
+#11)using if ,elif,else statement , frame a calculator program
+m=44
+n=55
+if m >30:
+    print(m+n)
+elif m< 30:
+    print(m-n)
+else:
+    print("Invalid")
+
+
+#12)check whether the number is single digit or not..if the given number is single digit then display them in words.
+a=4
+if a <10:
+    print("single digit")
+else:
+    print("Not a single digit")
+
+
+#13)get the subject marks for a single student
+m1=76
+m2=65
+m3=80
+
+total=m1+m2+m3
+average=total/3
+percentage= total/300 *100
+print("Total marks:", total)
+print("Average:", average)
+print("Percentage:", percentage)
+
+if percentage > = 80:
+    print("grade 1")
+elif percentage>=60:
+    print("grade 2")
+elif percentage < 60:
+    print("grade 3")
+else:
+    print("fail")
+
+ 
+
+#14)calculate the energy bill
+unit = 110
+if unit <=300:
+    print( "rate: 3.50")
+elif unit <= 200:
+    print(" rate: 2.50")
+elif unit<100:
+    print("rate: 1.50")
+else:
+    print("Invalid")
+
+
+#15) get a two digit number print the digits of number seperately
+
+a= int(input("Enter a two digit number:"))
+firstdigit= a // 10
+seconddigit = a % 10
+print(firstdigit)
+print(seconddigit)
+
+
+#16) Get theory score and practical score and check whether it is valid
+theory=int(input("Enter a Theory mark:"))
+practical=int(input("Enter a Practical mark:"))
+
+if theory >0 and theory <=50 and practical >0 and practical <=50:
+    print("Valid")
+    total=theory+practical
+    print(total)
+else:
+    print("Invalid")
+'''
+
+17)Get  name list
+get the subjects name
+for language subjects ,maths and social only theory marks
+for science include both theory and practical
+find the total and perentage of their score
+rank them based on their marks.
+
+
+student = input("Enter a student name:")
+Tamil= int(input("Enter a tamil mark:"))
+English= int(input("Enter a english mark:"))
+Maths= int(input("Enter a maths mark:"))
+Social= int(input("Enter a social mark:"))
+Science_theory= int(input("Enter a science theory mark:"))
+Science_practical= int(input("Enter a science practical mark:"))
+
+if Science_theory >0 and Science_theory <=70 and Science_practical >0 and Science_practical <=30:
+    print("Valid")
+    sci_total=Science_theory+Science_practical
+    print("Science Mark:", sci_total)
+else:
+    print("Invalid")
+
+total= Tamil + English + Maths + Social + Science_theory + Science_practical
+print("Total Marks:", total)
+
+percentage = total/600 * 100
+print("percentage :", percentage )
+
+if percentage >=80:
+    print("grade 1")
+elif percentage >=60:
+    print("grade 2")
+elif percentage >= 40:
+    print("grade 3")
+else:
+    print("fail")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
