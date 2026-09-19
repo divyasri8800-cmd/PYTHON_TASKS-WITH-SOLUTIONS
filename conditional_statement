@@ -1,0 +1,446 @@
+'''
+#if task
+
+#1)Check if number is greater than 100
+price=123
+if price>100:
+    print("The price is greater than 100")
+
+#2)Check if number is less than 0    
+m=-44
+if m<0:
+    print("Less than zero")
+
+#3)Check if a character is ‘A’
+character="A"
+if character == "A":
+    print("character is A")
+
+#4)Check if a number is divisible by 7
+a= 49
+if a %7== 0:
+    print("divisible by 7")
+
+#5)Check if marks are exactly 100
+mark=100
+if mark==100:
+    print("equal")
+
+#6)Check if a string length is more than 5
+name= "Divyasri"
+if len(name)>5:
+    print("string lengt is more than 5")
+
+#7)Check if a number ends with digit 5
+num=555
+if num%5==0:
+    print("ends with digit 5")
+
+#8)Check if salary is equal to 25,000
+salary=25000
+if salary ==25000:
+    print("salary is equal to 25,000")
+
+#9)Check if user entered correct PIN (only check, no else)
+PIN=2444666668888888
+if PIN==2444666668888888:
+    print("Welcome")
+
+#if_else
+
+
+#1)Check if number is greater than 50 or not
+num=45
+if num>50:
+    print("greater than 50")
+else:
+    print("Not greater than 50")
+
+#2)Check if number is divisible by 9 or not
+num=81
+if num %9==0:
+    print("divisible by 9")
+else:
+    print(" Not divisible by 9")
+
+#3)Compare two strings (equal or not)
+student_1= "Ravi"
+student_2="kavi"
+if student_1 == student_2:
+    print("equal")
+else:
+    print("not equal")
+
+#4)Check if age is above 60 (senior) or not
+age=66
+if age>=60:
+    print("Senior")
+else:
+    print("not")
+
+#5)Check if number is two-digit or not
+x=22
+if x >9:
+    print(" two digit")
+else:
+    print("not")
+
+#6)Check if character is alphabet or not
+x= "G"
+if x >='A' and x<='Z':
+    print("Alpha")
+else:
+    print("not")
+
+#7)Check if total purchase > 1000 for free delivery
+total_bill=1544
+if total_bill > 1000:
+    print("there is a free delivary")
+else:
+    print("there is no free delivary")
+
+#8)Check if student attendance ≥ 75% or not
+percentage=79
+if percentage>=75:
+    print(" eligible to attend exam")
+else:
+    print("not eligible")
+
+#9)Check if number is multiple of 4 or not
+num=60
+if num %4==0:
+    print("multiple by 4")
+else:
+    print("not multiple by 4")
+
+#10)Check if password equals "admin123"
+password= "admin123"
+if password == "admin123":
+    print("Welcome")
+else:
+    ("invalid password")
+
+
+
+#elif statement
+
+#1)Determine season based on month number
+month=int(input("Enter the month number:"))
+if month in[1,2,3,4]:
+    print( "Winter")
+elif month in [5,6,7,8]:
+    print("summer")
+elif month in [9,10,11,12]:
+    print("momsoon")
+else:
+    print("Invalid month")
+
+#2)Check type of quadrilateral (square, rectangle, other)
+size1=1
+size2=10
+size3=1
+size4=10
+if size1==size2==size3==size4:
+    print("square")
+elif size1==size3 and size2==size4:
+    print("rectangle")
+else:
+    ("others")
+
+#3)Find smallest of three numbers
+a=20
+b=89
+c=48
+if a<b and a<c:
+    print("a")
+elif b<a and b<c:
+    print("b")
+elif c<a and c<b:
+    print("c")
+else:
+    ("invalid")
+
+#4)Assign performance rating (Excellent, Good, Average, Poor)
+mark= int(input("Enter the mark:"))
+if mark>= 90:
+    print("excellent")
+elif mark>=80:
+    print("good")
+elif mark>=70:
+    print("average")
+else:
+    print("poor")
+
+#5)Find largest among four numbers
+a=20
+b=89
+c=48
+d=700
+if a>b and a>c and a>d:
+    print("a")
+elif b>a and b>c and b>d:
+    print("b")
+elif c>a and c>b and a>d:
+    print("c")
+elif d>a and d>b and d>c:
+    print("d")
+else:
+    ("invalid")
+
+#6)Classify temperature (Freezing, Cold, Warm, Hot)
+temperature=int(input("Enter the temperature:"))
+if temperature<=0:
+    print("freezing")
+elif temperature <=15:
+    print("cold")
+elif temperature<=30:
+    print("warm")
+elif temperature>30:
+    print("hot")
+else:
+    ("not defined")
+
+#7)Check number range (0–10, 11–50, 51–100, >100)
+num=int(input("Enter the number:"))
+if  num >=0 and num <=10:
+    print("0-10")
+elif num >=11 and num <= 50:
+    print('11-50')
+elif num >=51 and num <=100:
+    print('51-100')
+else:
+    print('above 100')
+
+#8)Identify input as positive, negative, or zero
+n=int(input("Enter the number:"))
+if n<0:
+    print("negative")
+elif n>0:
+    print("positive")
+elif n==0:
+    print("zero")
+else:
+    ("undefined")
+
+#9)Check cricket score level (Duck, Half-century, Century)
+score= int(input("Enter the number:"))
+if score==0:
+    print("Duck")
+elif score ==50:
+    print("half-century")
+elif scor ==100:
+    print("century")
+
+#10)Categorize internet speed (Slow, Medium, Fast)
+internet= int(input("Enter the number:"))
+if internet<0:
+    print("slow")
+elif internet <= 50:
+    print("medium")
+elif internet>50:
+    print("fast")
+
+#11)Determine transport type (Bike, Car, Bus, Truck) by wheels
+wheels = int(input("Enter the number:"))
+if wheels ==2:
+    print("Bike")
+elif wheels ==4:
+    print("car")
+elif wheels ==6:
+    print("Bus")
+elif wheels >6:
+    print("Truck")
+
+#12)Categorize exam result (Fail, Pass, Merit, Distinction, Topper)
+result= int(input("Enter the exam result:"))
+if result > 90:
+    print("Topper")
+elif result > 80:
+    print("Distinction")
+elif result > 70:
+    print("Merit")
+elif result > 60:
+    print("Pass")
+else:
+    ("fail")
+
+
+#13)Classify character (uppercase, lowercase, digit, special)
+character= input("Enter a character:")
+if character >='A' and character <='Z':
+    print("Uppercase")
+elif character >= 'a' and character<='z':
+    print("Lowercase")
+elif character >=0 and character <=9:
+    print("Digit")
+else:
+    print("special character")
+
+'''
+#Nested if
+'''
+#1)Check if a number is positive → then check if it is even or odd.
+a=56
+if a > 0:
+    print("Positive")
+    if a%2==0:
+        print("even")
+    else:
+        print("odd")
+else:
+    print("Negative")
+
+#2)Check if student passed all subjects → then check if eligible for distinction (average ≥ 75).
+
+Tamil= int(input("Enter a tamil mark:"))
+English=int(input("Enter a english mark:"))
+Maths=int(input("Enter a maths mark:"))
+
+average = Tamil+English+Maths/3
+
+if Tamil>=40 and English>=40 and Maths>=40:
+    print("Student pass")
+    if average >= 75:
+        print("Eligible for distinction")
+    else:
+        print("Not eligible for distinction")
+else:
+    ("Student fail")
+
+#3)Check if age ≥ 18 → then check if user has driving license.
+age = int(input("Enter the age:"))
+license= "yes"
+if age >=18:
+    print("Eligible")
+    if license ==  "yes":
+        print("can drive")
+    else:
+        print("cannnot drive")
+else:
+    print("Not eligible")
+
+
+#4)Check if login username is correct → then check if password is correct.
+username = input("Enter your username:")
+password = int(input("Enter your password:"))
+if username == "Admin123":
+    print("username is correct")
+    if password == 22444:
+               print("password is correct")
+    else:
+        print("Incorrect password")
+else:
+    print("Incorrect password")
+
+
+#5)Check if number is divisible by 5 → then check if also divisible by 10.
+num= 55
+if num %5==0:
+    print("divisible by 5")
+    if num %10==0:
+        print("divisible by 10")
+    else:
+        print("not divisible by 10")
+else:
+    print(" not divisible by 5")
+
+
+#6)Check if year is divisible by 4 → then check leap year conditions (divisible by 100 and 400).
+year=2020
+
+if year %4==0:
+    print("divisible by 4 ")
+    if year %400== 0:
+        print("divisible by 400")
+    else:
+        print("not divisible by 400")
+else:
+    print(" not divisible by 4 ")
+
+
+
+
+#7)Check if salary > 30,000 → then check if experience > 5 years for bonus.
+salary= 35000
+experience= 4
+if salary >= 30000:
+    print("The salary is above 30,000")
+    if experience > 5 :
+        print("have a bonus")
+    else:
+        print("does not have a bonus")
+else:
+    print("The salary is below 30,000")
+        
+
+#8)Check if account balance > 0 → then check if withdrawal amount ≤ balance.
+balance=10000
+withdrawal=5000
+
+if balance>0:
+    print(" balance is available")
+    if  withdrawal >= balance:
+        print("Withdrawal possible")
+    else:
+        print("Withdrawal not possible")
+else:
+    ("no balance")
+'''
+
+#9)Check if temperature > 0 → then check if less than 20 (Cold category).
+temperature = 15
+
+if temperature > 0:
+
+    print("Temperature is positive")
+
+    if temperature < 20:
+        print("Cold")
+    else:
+        print("Normal")
+else:
+    print("Very cold")
+
+#10)Check if marks ≥ 35 → then check if marks ≥ 90 (Topper)
+marks = 95
+
+if marks >= 35:
+    if marks >= 90:
+        print("Topper")
+    else:
+        print("Passed")
+else:
+    print("Failed")
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
